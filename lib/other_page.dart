@@ -5,12 +5,14 @@ class OtherPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-          child: Text(
-        'Other Page',
-        style: TextStyle(fontSize: 52),
-      )),
+    return Scaffold(
+      appBar: AppBar(),
+      body: const Center(
+        child: Text(
+          'Other Page',
+          style: TextStyle(fontSize: 52),
+        ),
+      ),
     );
   }
 }
